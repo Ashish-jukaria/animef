@@ -10,7 +10,7 @@ export const Results =()=>{
         
             <ul className="m-4">
                 {data && data.length > 0 ? (
-                    data.map((item: any, index: number) => (
+                    data.map((item: any) => (
                         <div className="m-4 bg-purple-100 hover:bg-purple-400">
 
                       
